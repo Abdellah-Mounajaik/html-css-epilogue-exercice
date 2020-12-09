@@ -39,3 +39,83 @@ header p {
     left: 40%;
 }
 /* fin header */
+/* debut section1 */
+section:nth-child(2){
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+    text-align: center;
+    padding: 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+section:nth-child(2) i{
+    border-radius: 50%;
+    border: 2px solid gray;
+    padding: 20px;
+
+}
+section>div>button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: white;
+    border: gray solid;
+    margin-top: 20px;
+}
+section>diV>button:hover{
+    border: solid red;
+    color: red;
+    
+}
+/* fin section 1 */
+/* debut section 2 */
+section:nth-child(3){
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    
+    width: 48%;
+    background-color: white;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    transition: all 1s;
+}
+.card img:hover{
+    transform: scale(1.1);
+    width: 500px;
+}
+.card button{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    background-color: white;
+    border: gray solid;
+}
+.card button:hover{
+    border: red solid;
+    color: red;
+}
+.card-title{
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    
+}
+/* fin section 2 */
