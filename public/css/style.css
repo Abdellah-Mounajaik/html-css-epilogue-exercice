@@ -119,3 +119,25 @@ section:nth-child(3){
     
 }
 /* fin section 2 */
+/* debut section 3 */
+section:nth-child(4) {
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    padding: 80px;
+
+}
+section:nth-child(4) hr{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+/* fin de section 3 */
+/* footer */
+footer{
+    text-align: center;
+    color: gray;
+}
+footer div> i{
+    padding: 10px;
+}
+/* fin footer */
